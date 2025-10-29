@@ -2,50 +2,24 @@ body
 {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 16px;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6
+.float 
 {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: green;
+    float: right;
+    margin: 0 0 15px 15px;
+}
+        
+p 
+{
+     text-align: justify;
+     margin-left: 150px;
 }
 
-div
+h3 
 {
-
-    margin: 5px;
-    padding: 5px;
-}
-
-.static
-{
-    position: static;
-    width: 75%;
-}
-
-.relative
-{
-    position: relative;
-    left: 20px;
-    width: 80%;
-    height: 20%;
-    
-
-}
-
-.relative .relative
-{
-    position: relative;
-    height: 130px;
-
-}
-
-.relative .relative .relative
-{
-    position: relative;
-    left: 103%;
-    top: -145px; 
-    width: 28%;
-    
-
+     margin-left: 100px;
 }
